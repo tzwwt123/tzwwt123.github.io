@@ -203,7 +203,6 @@ h1 {
 
 .finder-card,
 .guide-card,
-.ad-shell,
 .roadmap-grid > div {
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -470,31 +469,6 @@ h2 {
   color: var(--muted);
 }
 
-.ad-shell {
-  margin-top: 34px;
-  margin-bottom: 34px;
-  padding: 22px;
-  background: rgba(255, 255, 255, 0.58);
-  box-shadow: none;
-  text-align: center;
-}
-
-.ad-shell span {
-  display: block;
-  color: var(--muted);
-  font-size: 0.76rem;
-  font-weight: 900;
-  text-transform: uppercase;
-}
-
-.ad-shell p {
-  margin-top: 8px;
-  color: var(--muted);
-}
-
-.ad-shell.in-article {
-  margin: 26px 0;
-}
 
 .roadmap-grid {
   display: grid;
