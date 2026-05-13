@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="site-header">
@@ -42,7 +42,7 @@
                 <section class="finder-card" id="finder" aria-labelledby="finder-title">
                     <div class="finder-head">
                         <span>Find a task</span>
-                        <strong>Pick the job to finish</strong>
+                        <strong id="finder-title">Pick the job to finish</strong>
                     </div>
                     <label class="search-label" for="workflow-search">Search by task</label>
                     <input id="workflow-search" type="search" placeholder="Try: Excel, meeting notes, sales email">
@@ -102,6 +102,7 @@
                             <span>SOP</span>
                             <strong>Turn process notes into an SOP</strong>
                         </a>
+                        <div class="workflow-empty" id="workflow-empty" aria-live="polite">No matching guide yet. Try Excel, email, resume, meeting, or proposal.</div>
                     </div>
                 </section>
             </div>
