@@ -25,7 +25,7 @@
 <body>
     <header class="site-header"><div class="shell nav"><a class="brand" href="../index.html"><span class="brand-mark">E</span><span>EasyChatGPTGuide</span></a><nav class="nav-links" aria-label="Primary navigation"><a href="../index.html#finder">Find a task</a><a href="../index.html#library">Guides</a><a href="../index.html#topics">Use cases</a></nav><a class="nav-cta" href="../index.html#library">See all guides</a></div></header>
     <main class="article-main"><article class="article-shell">
-        <header class="article-header"><a href="../index.html#library" class="back-link">Back to guides</a><h1>How to Use ChatGPT at Work Without Sharing Private Data</h1><div class="article-meta">May 14, 2026 • Workplace AI workflow • 7 min read</div></header>
+        <header class="article-header"><a href="../index.html#library" class="back-link">Back to guides</a><h1>How to Use ChatGPT at Work Without Sharing Private Data</h1><div class="article-meta">May 14, 2026 • Workplace AI workflow • 9 min read</div></header>
         <section class="article-body">
             <p>Many people want ChatGPT to help at work but are not sure what they can safely paste. The safest habit is simple: remove names, private numbers, customer details, financial data, legal text, and anything your company would not want outside its systems.</p>
             <h2>Before you paste anything</h2>
@@ -46,6 +46,28 @@ Rules:
 Do not assume missing facts.
 Flag anything that needs human review.
 Return a draft I can edit before using.</div>
+            <h2>Test input</h2>
+            <div class="prompt-box">Task: write a customer apology email
+Context without private details: ecommerce company, delayed shipment, customer has contacted support twice
+Example data with placeholders: Customer A ordered Product B. Shipment is 5 days late. Support missed the first reply.
+Rules: do not mention compensation unless I provide it.</div>
+            <h2>What good output should include</h2>
+            <ul><li>No real names, order IDs, addresses, phone numbers, or payment details.</li><li>A draft that uses placeholders instead of private data.</li><li>A reminder to confirm refund or compensation policy before promising anything.</li><li>A human review step before sending.</li></ul>
+            <h2>Stronger prompt</h2>
+            <div class="prompt-box">Before helping with this work task, review the information below for privacy risk.
+
+Task:
+[what I want to do]
+
+Draft context:
+[paste anonymized or partially anonymized context]
+
+Instructions:
+1. List anything that still looks private or sensitive.
+2. Rewrite the context using safer placeholders.
+3. Ask me for any missing non-sensitive details.
+4. Only then create the work draft.
+5. Do not invent facts, policies, refunds, legal claims, or commitments.</div>
             <h2>Example</h2>
             <p>Instead of pasting a real customer complaint with name, order number, and private details, describe the problem in general terms: "Customer A received a late shipment, wants a refund, and is frustrated because support did not reply for three days."</p>
             <h2>Common mistake</h2>

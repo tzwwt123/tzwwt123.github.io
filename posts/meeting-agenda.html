@@ -25,7 +25,7 @@
 <body>
     <header class="site-header"><div class="shell nav"><a class="brand" href="../index.html"><span class="brand-mark">E</span><span>EasyChatGPTGuide</span></a><nav class="nav-links" aria-label="Primary navigation"><a href="../index.html#finder">Find a task</a><a href="../index.html#library">Guides</a><a href="../index.html#topics">Use cases</a></nav><a class="nav-cta" href="../index.html#library">See all guides</a></div></header>
     <main class="article-main"><article class="article-shell">
-        <header class="article-header"><a href="../index.html#library" class="back-link">Back to guides</a><h1>How to Create a Meeting Agenda with ChatGPT</h1><div class="article-meta">May 14, 2026 • Meeting workflow • 6 min read</div></header>
+        <header class="article-header"><a href="../index.html#library" class="back-link">Back to guides</a><h1>How to Create a Meeting Agenda with ChatGPT</h1><div class="article-meta">May 14, 2026 • Meeting workflow • 8 min read</div></header>
         <section class="article-body">
             <p>A meeting agenda should make the meeting easier to run. ChatGPT can help when you give it the purpose, people, decisions, and time limit.</p>
             <h2>Best use cases</h2>
@@ -51,6 +51,43 @@ Decisions needed:
 Return:
 1. Meeting objective
 2. Timed agenda
+3. Questions to ask
+4. Decisions to confirm
+5. Follow-up email template</div>
+            <h2>Test input</h2>
+            <div class="prompt-box">Meeting purpose: decide launch scope for the customer portal
+Attendees: product manager, engineering lead, support lead, client sponsor
+Time available: 45 minutes
+Background: payment flow is delayed, mobile layout has two known issues, support wants more time for help center updates
+Decisions needed: launch with or without guest checkout, launch date, who owns customer communication</div>
+            <h2>What good output should include</h2>
+            <ul><li>A meeting objective that names the decision, not just the topic.</li><li>Time limits for each agenda item.</li><li>Questions that expose tradeoffs.</li><li>Decision points and owners.</li><li>A follow-up email that confirms what changed after the meeting.</li></ul>
+            <h2>Stronger prompt</h2>
+            <div class="prompt-box">Create a decision-focused meeting agenda.
+
+Meeting purpose:
+[why we are meeting]
+
+Attendees and roles:
+[who is joining]
+
+Time available:
+[minutes]
+
+Context:
+[background]
+
+Decisions needed:
+[list decisions]
+
+Rules:
+Every agenda item must have an intended outcome.
+Put decision items before general discussion.
+Include questions that reveal risks and tradeoffs.
+
+Return:
+1. Meeting objective
+2. Timed agenda with intended outcome for each item
 3. Questions to ask
 4. Decisions to confirm
 5. Follow-up email template</div>

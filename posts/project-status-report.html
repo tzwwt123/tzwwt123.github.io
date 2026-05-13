@@ -25,7 +25,7 @@
 <body>
     <header class="site-header"><div class="shell nav"><a class="brand" href="../index.html"><span class="brand-mark">E</span><span>EasyChatGPTGuide</span></a><nav class="nav-links" aria-label="Primary navigation"><a href="../index.html#finder">Find a task</a><a href="../index.html#library">Guides</a><a href="../index.html#topics">Use cases</a></nav><a class="nav-cta" href="../index.html#library">See all guides</a></div></header>
     <main class="article-main"><article class="article-shell">
-        <header class="article-header"><a href="../index.html#library" class="back-link">Back to guides</a><h1>How to Write a Project Status Report with ChatGPT</h1><div class="article-meta">May 14, 2026 • Project workflow • 7 min read</div></header>
+        <header class="article-header"><a href="../index.html#library" class="back-link">Back to guides</a><h1>How to Write a Project Status Report with ChatGPT</h1><div class="article-meta">May 14, 2026 • Project workflow • 9 min read</div></header>
         <section class="article-body">
             <p>A good project status report is not a diary. It tells people what changed, what is blocked, what needs a decision, and what will happen next. ChatGPT can help turn messy notes into that structure.</p>
             <h2>Best use cases</h2>
@@ -51,6 +51,34 @@ Return:
 4. Decisions needed
 5. Next steps with owners
 6. A short email version under 160 words</div>
+            <h2>Test input</h2>
+            <div class="prompt-box">Audience: client leadership
+Project: Customer portal redesign
+Rough notes:
+Login page finished. Payment screen delayed because API docs changed. QA found two mobile layout issues. Legal still needs to approve privacy copy. Launch target is June 18, but payment delay may push it by 3 to 5 days. Need client to confirm whether guest checkout is required for launch.</div>
+            <h2>What good output should include</h2>
+            <ul><li>A short summary that says the project is progressing but launch has risk.</li><li>A clear blocker around payment API changes.</li><li>A named decision needed from the client: guest checkout for launch.</li><li>Next steps with owners, not just vague recommendations.</li><li>No invented dates, percentages, or guarantees.</li></ul>
+            <h2>Stronger prompt</h2>
+            <div class="prompt-box">Turn these notes into a project status report. If information is missing, write "not provided" instead of guessing.
+
+Audience:
+[who will read this]
+
+Project goal:
+[what the project is supposed to achieve]
+
+Notes:
+[paste notes]
+
+Format:
+1. Overall status: green, yellow, or red, with one sentence explaining why
+2. Executive summary under 90 words
+3. Completed this week
+4. In progress
+5. Risks and blockers, with impact
+6. Decisions needed, with owner
+7. Next steps, with owner and date if provided
+8. Short email version under 160 words</div>
             <h2>Common mistake</h2>
             <p>Do not let ChatGPT invent confidence. If a deadline is uncertain, say that. A status report is useful when it makes risk visible early.</p>
             <h2>Related guides</h2>
