@@ -2,102 +2,152 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.easychatgptguide.com/</loc>
-    <lastmod>2026-05-13</lastmod>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.easychatgptguide.com/about.html</loc>
-    <lastmod>2026-05-13</lastmod>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://www.easychatgptguide.com/contact.html</loc>
-    <lastmod>2026-05-13</lastmod>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://www.easychatgptguide.com/privacy.html</loc>
-    <lastmod>2026-05-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.easychatgptguide.com/posts/faq.html</loc>
-    <lastmod>2026-05-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.easychatgptguide.com/posts/basics.html</loc>
-    <lastmod>2026-05-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.easychatgptguide.com/posts/difference.html</loc>
-    <lastmod>2026-05-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.easychatgptguide.com/posts/customer-service-replies.html</loc>
-    <lastmod>2026-05-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.easychatgptguide.com/posts/weekly-planning.html</loc>
-    <lastmod>2026-05-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.easychatgptguide.com/posts/proposal-writing.html</loc>
-    <lastmod>2026-05-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.easychatgptguide.com/posts/resume-editing.html</loc>
-    <lastmod>2026-05-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.easychatgptguide.com/posts/real-estate-listing-descriptions.html</loc>
-    <lastmod>2026-05-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.easychatgptguide.com/posts/lesson-plans.html</loc>
-    <lastmod>2026-05-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.easychatgptguide.com/posts/marketing-calendar.html</loc>
-    <lastmod>2026-05-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.easychatgptguide.com/posts/cover-letter.html</loc>
-    <lastmod>2026-05-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.easychatgptguide.com/posts/job-interview-prep.html</loc>
-    <lastmod>2026-05-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.easychatgptguide.com/posts/performance-review.html</loc>
-    <lastmod>2026-05-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.easychatgptguide.com/posts/professional-email-replies.html</loc>
-    <lastmod>2026-05-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.easychatgptguide.com/posts/linkedin-profile.html</loc>
-    <lastmod>2026-05-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.easychatgptguide.com/posts/social-media-captions.html</loc>
-    <lastmod>2026-05-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.easychatgptguide.com/posts/standard-operating-procedures.html</loc>
-    <lastmod>2026-05-13</lastmod>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://www.easychatgptguide.com/posts/blog-outline.html</loc>
-    <lastmod>2026-05-13</lastmod>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.easychatgptguide.com/posts/product-descriptions.html</loc>
-    <lastmod>2026-05-13</lastmod>
+    <loc>https://www.easychatgptguide.com/posts/chatgpt-excel-formulas-data-cleanup.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.easychatgptguide.com/posts/chatgpt-meeting-notes-action-items.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.easychatgptguide.com/posts/chatgpt-sales-follow-up-emails.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.easychatgptguide.com/posts/cover-letter.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.easychatgptguide.com/posts/customer-service-replies.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.easychatgptguide.com/posts/job-description.html</loc>
-    <lastmod>2026-05-13</lastmod>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.easychatgptguide.com/posts/job-interview-prep.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.easychatgptguide.com/posts/lesson-plans.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.easychatgptguide.com/posts/linkedin-profile.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.easychatgptguide.com/posts/marketing-calendar.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.easychatgptguide.com/posts/performance-review.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.easychatgptguide.com/posts/product-descriptions.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.easychatgptguide.com/posts/professional-email-replies.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.easychatgptguide.com/posts/proposal-writing.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.easychatgptguide.com/posts/real-estate-listing-descriptions.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.easychatgptguide.com/posts/report-summary.html</loc>
-    <lastmod>2026-05-13</lastmod>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.easychatgptguide.com/posts/resume-editing.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.easychatgptguide.com/posts/social-media-captions.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.easychatgptguide.com/posts/standard-operating-procedures.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.easychatgptguide.com/posts/weekly-planning.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
