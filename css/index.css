@@ -642,6 +642,47 @@ h2 {
   padding-left: 22px;
 }
 
+.guides-filter {
+  margin-bottom: 28px;
+}
+
+.guides-filter strong {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--muted);
+  font-size: 0.84rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.guides-filter-tabs {
+  display: grid;
+  grid-template-columns: repeat(9, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.guides-filter-tab {
+  min-height: 40px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--white);
+  color: var(--muted);
+  font-weight: 900;
+  cursor: pointer;
+  transition: transform 0.28s var(--ease), border-color 0.28s var(--ease), background 0.28s var(--ease), color 0.28s var(--ease);
+}
+
+.guides-filter-tab:hover {
+  transform: translateY(-1px);
+  border-color: var(--green);
+}
+
+.guides-filter-tab.active {
+  color: var(--paper);
+  background: var(--green);
+  border-color: var(--green);
+}
+
 .article-main {
   padding: 70px 0 86px;
 }
@@ -834,6 +875,10 @@ blockquote {
   .hero {
     padding: 56px 0 62px;
   }
+
+  .guides-filter-tabs {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 620px) {
@@ -864,6 +909,7 @@ blockquote {
 
   .hero-actions .button,
   .workflow-tabs,
+  .guides-filter-tabs,
   .topic-list,
   .related-grid,
   .roadmap-grid {
