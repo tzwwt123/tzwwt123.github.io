@@ -15,7 +15,7 @@
     <meta name="twitter:title" content="ChatGPT UAT Test Case Prompt for Business Users | Easy ChatGPT Guide">
     <meta name="twitter:description" content="Use this ChatGPT UAT prompt to turn requirements and acceptance criteria into plain-language test cases, business workflows, test data, and sign-off checks.">
     <script type="application/ld+json">
-{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.easychatgptguide.com/#organization","name":"Easy ChatGPT Guide","url":"https://www.easychatgptguide.com/"},{"@type":"Article","@id":"https://www.easychatgptguide.com/posts/uat-test-cases.html#article","mainEntityOfPage":"https://www.easychatgptguide.com/posts/uat-test-cases.html","headline":"ChatGPT UAT Test Case Prompt for Business Users","description":"Use this ChatGPT UAT prompt to turn requirements and acceptance criteria into plain-language test cases, business workflows, test data, and sign-off checks.","datePublished":"2026-05-14","dateModified":"2026-06-09","author":{"@type":"Organization","name":"Easy ChatGPT Guide"},"publisher":{"@id":"https://www.easychatgptguide.com/#organization"},"articleSection":"Project workflow","inLanguage":"en"},{"@type":"BreadcrumbList","@id":"https://www.easychatgptguide.com/posts/uat-test-cases.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.easychatgptguide.com/"},{"@type":"ListItem","position":2,"name":"ChatGPT UAT Test Case Prompt for Business Users","item":"https://www.easychatgptguide.com/posts/uat-test-cases.html"}]}]}
+{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.easychatgptguide.com/#organization","name":"Easy ChatGPT Guide","url":"https://www.easychatgptguide.com/"},{"@type":"Article","@id":"https://www.easychatgptguide.com/posts/uat-test-cases.html#article","mainEntityOfPage":"https://www.easychatgptguide.com/posts/uat-test-cases.html","headline":"ChatGPT UAT Test Case Prompt for Business Users","description":"Use this ChatGPT UAT prompt to turn requirements and acceptance criteria into plain-language test cases, business workflows, test data, and sign-off checks.","datePublished":"2026-05-14","dateModified":"2026-07-04","author":{"@type":"Organization","name":"Easy ChatGPT Guide"},"publisher":{"@id":"https://www.easychatgptguide.com/#organization"},"articleSection":"Project workflow","inLanguage":"en"},{"@type":"BreadcrumbList","@id":"https://www.easychatgptguide.com/posts/uat-test-cases.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.easychatgptguide.com/"},{"@type":"ListItem","position":2,"name":"ChatGPT UAT Test Case Prompt for Business Users","item":"https://www.easychatgptguide.com/posts/uat-test-cases.html"}]}]}
     </script>
     <link rel="stylesheet" href="../css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,11 +25,11 @@
 <body>
     <header class="site-header"><div class="shell nav"><a class="brand" href="../index.html"><span class="brand-mark">E</span><span>EasyChatGPTGuide</span></a><nav class="nav-links" aria-label="Primary navigation"><a href="../index.html#finder">Find a task</a><a href="../index.html#library">Guides</a><a href="../index.html#topics">Use cases</a></nav><a class="nav-cta" href="../index.html#library">See all guides</a></div></header>
     <main class="article-main"><article class="article-shell">
-        <header class="article-header"><a href="../index.html#library" class="back-link">Back to guides</a><h1>ChatGPT UAT Test Case Prompt for Business Users</h1><div class="article-meta">Updated June 9, 2026 • Project workflow • 9 min read</div></header>
+        <header class="article-header"><a href="../index.html#library" class="back-link">Back to guides</a><h1>ChatGPT UAT Test Case Prompt for Business Users</h1><div class="article-meta">Updated July 4, 2026 • Project workflow • 9 min read</div></header>
         <section class="article-body">
             <p>UAT test cases help business users confirm whether a feature works in the real workflow. ChatGPT can draft a first pass from requirements, but the prompt needs to make every case clear enough for a non-technical tester to run and trace back to an acceptance criterion.</p>
             <h2>Best use cases</h2>
-            <ul><li>Turning acceptance criteria into business-language test cases.</li><li>Mapping each test case to a requirement, user story, or acceptance criterion.</li><li>Finding missing negative scenarios, role limits, and edge cases.</li><li>Preparing realistic test data and expected results.</li><li>Creating a sign-off checklist for business users before release.</li></ul>
+            <ul><li>Turning acceptance criteria into business-language test cases.</li><li>Mapping each test case to a requirement, user story, or acceptance criterion.</li><li>Finding missing negative scenarios, role limits, and edge cases.</li><li>Preparing realistic test data and expected results.</li><li>Defining who runs tests, answers questions, records evidence, and signs off before release.</li></ul>
             <h2>Copy this prompt</h2>
             <div class="prompt-box">Create UAT test cases from these requirements.
 
@@ -48,6 +48,12 @@ Business workflow:
 User roles:
 [who will use or approve this feature]
 
+UAT responsibility:
+[who will run tests, answer product questions, fix defects, and approve sign-off]
+
+Open defect rule:
+[whether minor defects can pass with documented approval, or must block release]
+
 Known risks:
 [edge cases, permissions, data rules, integrations]
 
@@ -55,17 +61,20 @@ Return a table with:
 Test case ID
 Linked requirement or acceptance criterion
 Scenario
+Tester or approver role
 Preconditions
 Test data needed
 Steps
 Expected result
 Priority
 Pass/fail evidence the tester should record
+Sign-off or defect note
 Notes for the tester
 
 Rules:
 - Write steps in plain business language, not technical language.
 - Cover the main workflow, negative cases, permission limits, and realistic data problems.
+- Separate who runs each test, who answers unclear business questions, and who approves sign-off.
 - Do not invent requirements or acceptance criteria.
 - If a rule is unclear, list it as a question for the product owner before UAT starts.</div>
             <h2>Test input</h2>
@@ -77,9 +86,11 @@ Acceptance criteria:
 - Existing account holders are prompted to sign in but can continue as guest.
 Business workflow: shopper finds a product, adds it to cart, checks out as guest, receives confirmation, and support can find the order later.
 User roles: guest shopper, existing account holder, support agent checking order status.
+UAT responsibility: ecommerce manager runs checkout tests, support lead reviews order lookup cases, product owner answers unclear rules, engineering lead fixes defects, operations manager signs off.
+Open defect rule: payment, tax, shipping, and confirmation email failures block sign-off; minor wording issues can pass only if the operations manager approves the release note.
 Known risks: invalid email, failed payment, missing shipping fields, duplicate email already tied to account, mobile checkout, tax/shipping calculation, confirmation email delay.</div>
             <h2>What good output should include</h2>
-            <ul><li>A clear link between each test case and the acceptance criterion it proves.</li><li>Plain steps a business tester can follow without developer knowledge.</li><li>Realistic test data, including invalid inputs and role-based scenarios.</li><li>Observable expected results, not vague phrases like "works correctly."</li><li>A short list of open questions that block confident sign-off.</li></ul>
+            <ul><li>A clear link between each test case and the acceptance criterion it proves.</li><li>Plain steps a business tester can follow without developer knowledge.</li><li>Realistic test data, including invalid inputs and role-based scenarios.</li><li>Observable expected results, not vague phrases like "works correctly."</li><li>Clear tester, reviewer, support, and sign-off roles so approval is not vague.</li><li>A short list of open questions or unresolved defects that block confident sign-off.</li></ul>
             <h2>Stronger prompt</h2>
             <div class="prompt-box">Create UAT test cases for business users. Do not only cover the happy path.
 
@@ -98,18 +109,25 @@ Known risks:
 UAT entry criteria:
 [what must be true before testers start]
 
+UAT responsibility:
+[business tester, product owner, QA or developer support, defect owner, sign-off owner]
+
 UAT sign-off owner:
 [person or role approving the release]
 
+Sign-off standard:
+[which failures block release, and which minor issues can pass with written approval]
+
 Return:
 1. A short test strategy
-2. A traceability map from acceptance criteria to test cases
-3. A table with test case ID, scenario, preconditions, test data, steps, expected result, priority, pass/fail evidence, and tester notes
-4. At least 3 negative test cases
-5. At least 2 role or permission cases
-6. At least 2 edge cases
-7. Questions to ask the product owner before UAT starts
-8. A short sign-off checklist</div>
+2. A role map for who creates, runs, supports, fixes, and approves UAT
+3. A traceability map from acceptance criteria to test cases
+4. A table with test case ID, scenario, tester or approver role, preconditions, test data, steps, expected result, priority, pass/fail evidence, defect note, and tester notes
+5. At least 3 negative test cases
+6. At least 2 role or permission cases
+7. At least 2 edge cases
+8. Questions to ask the product owner before UAT starts
+9. A short sign-off checklist that names any unresolved defects that need written approval</div>
             <h2>What to review</h2>
             <p>Check whether ChatGPT missed permissions, error states, empty states, edge cases, and real user behavior. UAT should prove the workflow works, not just the happy path.</p>
             <h2>Fix weak UAT test cases</h2>
@@ -121,7 +139,8 @@ Check for:
 3. Expected results that are not observable
 4. Missing test data
 5. Missing negative, permission, or edge cases
-6. Any test that is really a QA/system test instead of a user acceptance test
+6. Missing tester, approver, defect owner, or sign-off standard
+7. Any test that is really a QA/system test instead of a user acceptance test
 
 Rewrite only the weak cases and list any questions that must be answered before sign-off.</div>
             <h2>Related guides</h2>
