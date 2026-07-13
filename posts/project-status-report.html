@@ -15,7 +15,7 @@
     <meta name="twitter:title" content="ChatGPT Prompt for Project Status Reports Leaders Read | Easy ChatGPT Guide">
     <meta name="twitter:description" content="Use this ChatGPT project status report prompt to turn notes into an executive summary, RAG status, risks, blockers, decisions, and clear owner next steps.">
     <script type="application/ld+json">
-{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.easychatgptguide.com/#organization","name":"Easy ChatGPT Guide","url":"https://www.easychatgptguide.com/"},{"@type":"Article","@id":"https://www.easychatgptguide.com/posts/project-status-report.html#article","mainEntityOfPage":"https://www.easychatgptguide.com/posts/project-status-report.html","headline":"ChatGPT Prompt for Project Status Reports Leaders Read","description":"Use this ChatGPT project status report prompt to turn notes into an executive summary, RAG status, risks, blockers, decisions, and clear owner next steps.","datePublished":"2026-05-14","dateModified":"2026-06-01","author":{"@type":"Organization","name":"Easy ChatGPT Guide"},"publisher":{"@id":"https://www.easychatgptguide.com/#organization"},"articleSection":"Project workflow","inLanguage":"en"},{"@type":"BreadcrumbList","@id":"https://www.easychatgptguide.com/posts/project-status-report.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.easychatgptguide.com/"},{"@type":"ListItem","position":2,"name":"ChatGPT Prompt for Project Status Reports Leaders Read","item":"https://www.easychatgptguide.com/posts/project-status-report.html"}]}]}
+{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.easychatgptguide.com/#organization","name":"Easy ChatGPT Guide","url":"https://www.easychatgptguide.com/"},{"@type":"Article","@id":"https://www.easychatgptguide.com/posts/project-status-report.html#article","mainEntityOfPage":"https://www.easychatgptguide.com/posts/project-status-report.html","headline":"ChatGPT Prompt for Project Status Reports Leaders Read","description":"Use this ChatGPT project status report prompt to turn notes into an executive summary, RAG status, risks, blockers, decisions, and clear owner next steps.","datePublished":"2026-05-14","dateModified":"2026-07-10","author":{"@type":"Organization","name":"Easy ChatGPT Guide"},"publisher":{"@id":"https://www.easychatgptguide.com/#organization"},"articleSection":"Project workflow","inLanguage":"en"},{"@type":"BreadcrumbList","@id":"https://www.easychatgptguide.com/posts/project-status-report.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.easychatgptguide.com/"},{"@type":"ListItem","position":2,"name":"ChatGPT Prompt for Project Status Reports Leaders Read","item":"https://www.easychatgptguide.com/posts/project-status-report.html"}]}]}
     </script>
     <link rel="stylesheet" href="../css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,13 +25,13 @@
 <body>
     <header class="site-header"><div class="shell nav"><a class="brand" href="../index.html"><span class="brand-mark">E</span><span>EasyChatGPTGuide</span></a><nav class="nav-links" aria-label="Primary navigation"><a href="../index.html#finder">Find a task</a><a href="../index.html#library">Guides</a><a href="../index.html#topics">Use cases</a></nav><a class="nav-cta" href="../index.html#library">See all guides</a></div></header>
     <main class="article-main"><article class="article-shell">
-        <header class="article-header"><a href="../index.html#library" class="back-link">Back to guides</a><h1>ChatGPT Prompt for Project Status Reports Leaders Read</h1><div class="article-meta">Updated June 1, 2026 • Project workflow • 9 min read</div></header>
+        <header class="article-header"><a href="../index.html#library" class="back-link">Back to guides</a><h1>ChatGPT Prompt for Project Status Reports Leaders Read</h1><div class="article-meta">Updated July 10, 2026 • Project workflow • 9 min read</div></header>
         <section class="article-body">
             <p>A good project status report is not a diary. It tells people whether the project is on track, what changed, what is blocked, what decision is needed, and what will happen next. ChatGPT can help turn messy notes into that structure, but only if you make it lead with the useful part instead of writing an activity dump.</p>
             <h2>Best use cases</h2>
             <ul><li>Turning Slack notes, meeting notes, and task updates into one report.</li><li>Writing a weekly update for executives or clients.</li><li>Explaining blockers without sounding defensive.</li><li>Separating real risks from normal project noise.</li><li>Creating a short version for email and a longer version for internal records.</li></ul>
             <h2>The workflow</h2>
-            <ol><li>Paste rough notes about progress, blockers, deadlines, and decisions.</li><li>Tell ChatGPT who will read the report and what they can decide.</li><li>Ask for the top line first: status, reason, what changed, and what you need from the reader.</li><li>Review every date, owner, risk, and commitment before sending.</li></ol>
+            <ol><li>Paste rough notes about progress, blockers, deadlines, and decisions.</li><li>Tell ChatGPT who will read the report and what they can decide.</li><li>Define how green, yellow, and red status should be judged for this project.</li><li>Ask for the top line first: status, reason, what changed, and what you need from the reader.</li><li>Review every date, owner, risk, and commitment before sending.</li></ol>
             <h2>Copy this prompt</h2>
             <div class="prompt-box">Turn these project notes into a clear weekly status report.
 
@@ -44,8 +44,14 @@ Project:
 What the reader can decide or approve:
 [budget, timeline, scope, staffing, vendor choice, client decision, or none]
 
+Status rules:
+[how to decide green, yellow, or red for timeline, scope, budget, quality, or launch readiness]
+
 Rough notes:
 [paste updates, blockers, risks, dates, decisions]
+
+Source notes:
+[links, task IDs, meeting notes, dashboard numbers, or "not provided"]
 
 Return:
 1. Email subject line that includes status and any decision needed
@@ -55,11 +61,13 @@ Return:
 5. Risks and blockers with owner, impact, trigger, and next action
 6. Decisions needed, with owner and due date
 7. Next steps with owners
-8. A short email version under 160 words</div>
+8. Items that should be added back to the project board: task, blocker, risk, decision, or missing information
+9. A short email version under 160 words</div>
             <h2>Test input</h2>
             <div class="prompt-box">Audience: client leadership
 Project: Customer portal redesign
 What the reader can decide or approve: whether guest checkout is required for launch
+Status rules: green means launch date, payment, legal, and mobile QA are on track; yellow means one area may delay launch without a decision; red means launch date is no longer realistic
 Rough notes:
 Login page finished. Payment screen delayed because API docs changed. QA found two mobile layout issues. Legal still needs to approve privacy copy. Launch target is June 18, but payment delay may push it by 3 to 5 days. Need client to confirm whether guest checkout is required for launch.</div>
             <h2>What good output should include</h2>
@@ -73,11 +81,17 @@ Audience:
 Project goal:
 [what the project is supposed to achieve]
 
+Status rules:
+[how green, yellow, and red should be calculated for this project]
+
 Reader action needed:
 [the decision, approval, support, escalation, or "no action needed"]
 
 Notes:
 [paste notes]
+
+Evidence:
+[task board links, metric source, meeting note, owner update, or "not provided"]
 
 Format:
 1. Subject line: project name, status, and any reader action needed
@@ -89,7 +103,26 @@ Format:
 7. Risks and blockers table: issue, impact, owner, trigger, next action, help needed
 8. Decisions needed, with owner and due date
 9. Next steps, with owner and date if provided
-10. Short email version under 160 words</div>
+10. Follow-up records to create in the project board: task, blocker, risk, decision, or missing information
+11. Short email version under 160 words</div>
+            <h2>Make status rules explicit</h2>
+            <p>If ChatGPT chooses green, yellow, or red without your rules, the report can sound confident for the wrong reason. Give it the same standard your team uses for timeline, scope, budget, quality, launch readiness, or stakeholder approval.</p>
+            <div class="prompt-box">Before rewriting this report, check whether the status rating is justified.
+
+Status rules:
+[paste green/yellow/red rules]
+
+Draft report:
+[paste draft]
+
+Check:
+1. Does the stated status match the rules?
+2. What evidence supports the status?
+3. What evidence is missing?
+4. Which risk, blocker, or decision should appear in the executive summary?
+5. What task, blocker, risk, or decision should be added back to the project board?
+
+Rewrite only the parts that make the status clearer. Do not invent metrics, owners, dates, or approvals.</div>
             <h2>Use it as a status report checker</h2>
             <p>If you already have a draft, ask ChatGPT to check whether a busy reader can understand the point without reading the whole report.</p>
             <div class="prompt-box">Act as a senior stakeholder reading this project status report on a phone.
@@ -99,7 +132,8 @@ Check the draft for:
 2. Is there a clear ask, decision, or "no action needed" note?
 3. Are risks tied to an owner, trigger, impact, and next action?
 4. Does it remove activity-dump details that do not change a decision?
-5. Are any dates, owners, percentages, or guarantees unsupported?
+5. Does the status rating match the stated rules?
+6. Are any dates, owners, percentages, or guarantees unsupported?
 
 Rewrite only the weak parts. Keep the final version concise and factual.
 
