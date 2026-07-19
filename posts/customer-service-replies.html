@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ChatGPT Customer Service Prompt With Source Checks and Handoff | Easy ChatGPT Guide</title>
-    <meta name="description" content="Use this ChatGPT customer service prompt to draft replies, classify tickets, check sources, follow policy limits, and prepare human handoff summaries.">
+    <meta name="description" content="Use this ChatGPT customer service prompt to draft replies, check sources, flag conflicts, follow policy limits, and prepare human handoff summaries.">
     <link rel="canonical" href="https://www.easychatgptguide.com/posts/customer-service-replies.html">
     <meta property="og:site_name" content="Easy ChatGPT Guide">
     <meta property="og:type" content="article">
     <meta property="og:title" content="ChatGPT Customer Service Prompt With Source Checks and Handoff | Easy ChatGPT Guide">
-    <meta property="og:description" content="Use this ChatGPT customer service prompt to draft replies, classify tickets, check sources, follow policy limits, and prepare human handoff summaries.">
+    <meta property="og:description" content="Use this ChatGPT customer service prompt to draft replies, check sources, flag conflicts, follow policy limits, and prepare human handoff summaries.">
     <meta property="og:url" content="https://www.easychatgptguide.com/posts/customer-service-replies.html">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="ChatGPT Customer Service Prompt With Source Checks and Handoff | Easy ChatGPT Guide">
-    <meta name="twitter:description" content="Use this ChatGPT customer service prompt to draft replies, classify tickets, check sources, follow policy limits, and prepare human handoff summaries.">
+    <meta name="twitter:description" content="Use this ChatGPT customer service prompt to draft replies, check sources, flag conflicts, follow policy limits, and prepare human handoff summaries.">
     <script type="application/ld+json">
-{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.easychatgptguide.com/#organization","name":"Easy ChatGPT Guide","url":"https://www.easychatgptguide.com/"},{"@type":"Article","@id":"https://www.easychatgptguide.com/posts/customer-service-replies.html#article","mainEntityOfPage":"https://www.easychatgptguide.com/posts/customer-service-replies.html","headline":"ChatGPT Customer Service Prompt With Source Checks and Handoff","description":"Use this ChatGPT customer service prompt to draft replies, classify tickets, check sources, follow policy limits, and prepare human handoff summaries.","datePublished":"2026-05-13","dateModified":"2026-07-09","author":{"@type":"Organization","name":"Easy ChatGPT Guide"},"publisher":{"@id":"https://www.easychatgptguide.com/#organization"},"articleSection":"Support workflow","inLanguage":"en"},{"@type":"BreadcrumbList","@id":"https://www.easychatgptguide.com/posts/customer-service-replies.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.easychatgptguide.com/"},{"@type":"ListItem","position":2,"name":"ChatGPT Customer Service Prompt With Source Checks and Handoff","item":"https://www.easychatgptguide.com/posts/customer-service-replies.html"}]}]}
+{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.easychatgptguide.com/#organization","name":"Easy ChatGPT Guide","url":"https://www.easychatgptguide.com/"},{"@type":"Article","@id":"https://www.easychatgptguide.com/posts/customer-service-replies.html#article","mainEntityOfPage":"https://www.easychatgptguide.com/posts/customer-service-replies.html","headline":"ChatGPT Customer Service Prompt With Source Checks and Handoff","description":"Use this ChatGPT customer service prompt to draft replies, check sources, flag conflicts, follow policy limits, and prepare human handoff summaries.","datePublished":"2026-05-13","dateModified":"2026-07-19","author":{"@type":"Organization","name":"Easy ChatGPT Guide"},"publisher":{"@id":"https://www.easychatgptguide.com/#organization"},"articleSection":"Support workflow","inLanguage":"en"},{"@type":"BreadcrumbList","@id":"https://www.easychatgptguide.com/posts/customer-service-replies.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.easychatgptguide.com/"},{"@type":"ListItem","position":2,"name":"ChatGPT Customer Service Prompt With Source Checks and Handoff","item":"https://www.easychatgptguide.com/posts/customer-service-replies.html"}]}]}
     </script>
     <link rel="stylesheet" href="../css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,7 +35,7 @@
             <header class="article-header">
                 <a href="../index.html#library" class="back-link">Back to guides</a>
                 <h1>ChatGPT Customer Service Prompt With Source Checks and Handoff</h1>
-                <div class="article-meta">Updated July 9, 2026 • Support workflow • 8 min read</div>
+                <div class="article-meta">Updated July 19, 2026 • Support workflow • 8 min read</div>
             </header>
             <section class="article-body">
                 <p>Customer service is one of the safest early AI use cases when you use it for drafting, tone cleanup, and structure. The goal is not to let ChatGPT decide policy, expose customer details, or promise a fix you cannot give. The goal is to turn a messy support message into a clear reply that stays inside your real options and shows when a human should take over.</p>
@@ -75,6 +75,9 @@ Policy limits:
 Trusted source:
 [FAQ, help-doc paragraph, order status, internal policy note, or "no trusted source yet"]
 
+Source conflicts or gaps:
+[old help article, unclear refund rule, missing order status, customer asks for a person, repeated failed bot answer, or "none known"]
+
 Customer emotion:
 [angry, confused, disappointed, worried, urgent, or unknown]
 
@@ -92,6 +95,8 @@ Rules:
 - Use only the trusted source and situation details I provided.
 - If key information is missing, ask for it instead of guessing.
 - If no trusted source supports the answer, say what must be checked or hand it to a person.
+- If the trusted source conflicts with the order status, customer history, or another policy note, do not write a final answer. Mark the conflict and prepare a handoff summary.
+- If the customer asks for a person, says the bot already failed, or the same answer has not solved the problem, stop trying to resolve it with another long AI reply.
 - If the case needs judgment, security review, legal review, medical advice, billing authority, account access, safety review, or a policy exception, mark it for human handoff.
 - If this is a routine FAQ answer, say why it is safe to answer from the trusted source.
 - Keep private details out of the reply.
@@ -99,16 +104,18 @@ Rules:
 - Give one clear next step.
 
 Return:
-1. A one-sentence direct answer to the customer's exact request
-2. A short reply under 120 words
-3. A warmer version
-4. A firmer version
-5. Source used for the answer
-6. Ticket classification: routine FAQ, policy-limited, sensitive, urgent, or needs investigation
-7. Whether a human handoff is needed and why
-8. If handoff is needed, a short handoff summary for the person taking over: customer issue, source checked, what was already offered, missing facts, and recommended next action
-9. A one-sentence internal summary of the issue
-10. Any sentence that could sound defensive, robotic, too long, or too vague</div>
+1. Safe to answer now: yes, no, or needs review
+2. A one-sentence direct answer to the customer's exact request
+3. A short reply under 120 words, only if it is safe to answer
+4. A warmer version
+5. A firmer version
+6. Source used for the answer
+7. Source conflict or missing fact to verify
+8. Ticket classification: routine FAQ, policy-limited, sensitive, urgent, or needs investigation
+9. Whether a human handoff is needed and why
+10. If handoff is needed, a short handoff summary for the person taking over: customer issue, source checked, what was already offered, missing facts, conflict to resolve, and recommended next action
+11. A one-sentence internal summary of the issue
+12. Any sentence that could sound defensive, robotic, too long, or too vague</div>
                 <h2>Test input</h2>
                 <div class="prompt-box">Customer message: I paid for express shipping and the order is still not here. This is ridiculous. I want my money back.
 Customer's exact question or request: refund request
@@ -127,6 +134,7 @@ Channel and expected length: email, short answer</div>
                     <li>Only the remedy, refund, timeline, or escalation path you can actually offer.</li>
                     <li>One next step the customer can understand immediately.</li>
                     <li>A clear note about what source the answer used, such as the FAQ, help doc, order status, or policy.</li>
+                    <li>A clear warning when the source conflicts with another fact or does not support a final answer.</li>
                     <li>A ticket classification that separates routine questions from sensitive, urgent, or policy-limited cases.</li>
                     <li>A human handoff note when the issue is complex, sensitive, or outside the written policy.</li>
                     <li>A short internal handoff summary so the next person does not make the customer repeat the whole story.</li>
@@ -149,8 +157,9 @@ Check:
 3. Does anything sound defensive, robotic, dismissive, too long, or like a template?
 4. Does it promise anything not stated in the policy?
 5. Is there one clear next step?
-6. Should this stay with AI drafting, use a saved FAQ answer, or go to a person?
-7. Rewrite only the parts that need fixing.</div>
+6. Does the reply ignore a source conflict, missing fact, or direct request for a person?
+7. Should this stay with AI drafting, use a saved FAQ answer, or go to a person?
+8. Rewrite only the parts that need fixing.</div>
                 <h2>Repair prompt</h2>
                 <div class="prompt-box">The reply still sounds wrong.
 
@@ -164,9 +173,11 @@ Rewrite it again with these rules:
 - Do not add any new promise, refund, discount, or timeline.</div>
                 <h2>When to stop and escalate</h2>
                 <p>Do not use a prompt as the final authority for legal threats, chargebacks, medical or safety issues, harassment, account security, or anything involving regulated personal data. Use ChatGPT to organize the facts, then send the case to the right person.</p>
-                <p>Use AI freely for repetitive questions when the answer is already in your FAQ, order status, or written policy. Keep a person in the loop when the customer is angry, the facts conflict, the answer affects money or access, or the reply would require an exception.</p>
+                <p>Use AI freely for repetitive questions when the answer is already in your FAQ, order status, or written policy. Keep a person in the loop when the customer is angry, the facts conflict, the answer affects money or access, the customer asks for a person, or the reply would require an exception.</p>
                 <h2>Common mistake</h2>
                 <p>Do not ask ChatGPT to decide the policy. Give it the policy, available options, missing facts, exact customer request, and channel, then ask it to write or check the message. A simple customer question should not become a long AI support script.</p>
+                <h2>Specific customer service prompts</h2>
+                <div class="related-grid"><a href="customer-service-refund-request.html">Refund request replies</a><a href="angry-customer-reply-prompt.html">Reply to an angry customer</a></div>
                 <h2>Find repeated ticket problems</h2>
                 <p>If you have several similar tickets, use ChatGPT to find patterns before rewriting the same answer again. Remove private details first, then ask for common issue types, missing FAQ answers, and where a person should step in.</p>
                 <div class="prompt-box">Analyze these support tickets for repeat problems. Do not write customer replies yet.

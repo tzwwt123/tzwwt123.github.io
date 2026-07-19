@@ -44,15 +44,33 @@
   </url>
   <url>
     <loc>https://www.easychatgptguide.com/posts/chatgpt-meeting-notes-action-items.html</loc>
-    <lastmod>2026-07-12</lastmod>
+    <lastmod>2026-07-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.easychatgptguide.com/posts/chatgpt-sales-follow-up-emails.html</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.easychatgptguide.com/posts/sales-follow-up-after-no-response.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.easychatgptguide.com/posts/sales-follow-up-after-demo.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.easychatgptguide.com/posts/sales-follow-up-after-proposal.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.easychatgptguide.com/posts/check-chatgpt-business-information.html</loc>
@@ -68,9 +86,21 @@
   </url>
   <url>
     <loc>https://www.easychatgptguide.com/posts/customer-service-replies.html</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.easychatgptguide.com/posts/customer-service-refund-request.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.easychatgptguide.com/posts/angry-customer-reply-prompt.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.easychatgptguide.com/posts/customer-complaint-action-plan.html</loc>
@@ -134,9 +164,15 @@
   </url>
   <url>
     <loc>https://www.easychatgptguide.com/posts/professional-email-replies.html</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.easychatgptguide.com/posts/professional-email-ask-for-missing-information.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.easychatgptguide.com/posts/project-status-report.html</loc>
@@ -158,7 +194,7 @@
   </url>
   <url>
     <loc>https://www.easychatgptguide.com/posts/report-summary.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
